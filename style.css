@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+h2 {
+    margin: 0;
+    color: #333;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%; /* Ensures image adjusts to screen size */
+    height: auto; /* Maintains aspect ratio */
+}
+p {
+    margin: 20px;
+    text-align: justify;
+}
+@media (min-width: 600px) {
+    p {
+        margin: 0 auto; /* Centers the text */
+        width: 80%; /* Restricts text width for readability on larger screens */
+    }
+}
